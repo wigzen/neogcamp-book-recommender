@@ -79,7 +79,7 @@ var books = {
 var book = Object.keys(books);
 
 export default function App() {
-  var [display, setDisplay] = useState([]);
+  var [display, setDisplay] = useState(books.Horrer);
   function onClickHandler(item) {
     display = books[item];
     setDisplay(display);
