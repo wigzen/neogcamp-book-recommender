@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 135px;
+  background: linear-gradient(to right, #fdfbfb, #ebedee 70%);
+  color: white;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 18px;
+  padding: 15px 20px;
+  margin: 10px;
+  border: none;
+  /* background-color: #374151; */
+  background: linear-gradient(to left, #30cfd0 30%, #330867 100%);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li {
+  border: 1px solid #374151;
+  list-style: none;
+  width: 50%;
+  margin: 15px auto;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#text {
+  font-size: 16px;
+}
+
+#description {
+  font-size: 15px;
+  padding-top: 5px;
+}
